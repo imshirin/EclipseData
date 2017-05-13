@@ -2,6 +2,6 @@ public class test {
     public void demo()
     {
       system.debug('Hello world');
-      System.debug('Demo of branching and mearging with master');
+      System.debug('Demo of branching and mearging');
     }
 }
