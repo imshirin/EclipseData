@@ -1,0 +1,24 @@
+/*public with sharing class TestModFunction {
+
+Integer a=7;
+Integer b=4;
+    //Integer p;
+    void modDemo()
+    {
+		Integer a=7;
+		Integer b=4;
+		System.debug(math.mod(a,b));     
+    }
+}*/
+
+public class MySampleApexClass2 {
+public static String myString;  //Class Member variable
+    
+    
+public static Double getCalculatedValue () {    //Method definition and body
+    //do some calculation
+    myValue = myValue+10;
+    return myValue;
+}
+    
+}

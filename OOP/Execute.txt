@@ -1,0 +1,36 @@
+
+class Shape {
+	protected int height, width;
+
+	int calculateArea(int height, int width) {
+		return (height * width);
+	}
+
+}
+
+class Triangle extends Shape {
+	@Override
+	int calculateArea(int height, int width) {
+		// TODO Auto-generated method stub
+
+		return (super.calculateArea(height, width) / 2);
+	}
+}
+
+class Rectangle extends Shape {
+	@Override
+	int calculateArea(int height, int width) {
+		// TODO Auto-generated method stub
+		return super.calculateArea(height, width);
+	}
+}
+
+class Execute {
+	public static void main(String[] args) {
+		Shape triangleObj = new Triangle();
+		System.out.println("Area of Triangle = " + triangleObj.calculateArea(3, 4));
+
+		Shape rectangleObj = new Rectangle();
+		System.out.println("Area of Rectangle = " + rectangleObj.calculateArea(4, 3));
+	}
+}

@@ -1,0 +1,6 @@
+public class test {
+    test()
+    {
+      //('Hello world');
+    }
+}

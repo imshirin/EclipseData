@@ -1,0 +1,10 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  
+  <h1>Today</h1>
+
+  {!TODAY()}
+  
+
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

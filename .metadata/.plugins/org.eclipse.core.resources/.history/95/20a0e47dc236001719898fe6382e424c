@@ -1,0 +1,8 @@
+public with sharing class TestModFunction {
+
+Integer a=7;
+Integer b=4;
+    
+     
+    
+}

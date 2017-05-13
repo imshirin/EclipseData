@@ -1,0 +1,12 @@
+public with sharing class TestModFunction {
+
+Integer a=7;
+Integer b=4;
+    //Integer p;
+    void modDemo()
+    {
+		Integer a=7;
+		Integer b=4;
+		System.debug(math.mod(a,b));     
+    }
+}

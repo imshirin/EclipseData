@@ -1,0 +1,7 @@
+global class Add
+{
+  global void printMessage()
+  {
+      System.debug('Hello All');
+  }
+}

@@ -1,0 +1,30 @@
+<!--
+ * @Page Name: CreateRemoteSiteSetting
+ * @Description: Designed to create remote site setting after post installation of package.
+ * ===================================================================================================
+ *       Version   | Date        | Author             | Comments
+ * ---------------------------------------------------------------------------------------------------
+ *       1.0       | 13/05/2016  | Eternus Solutions  | 1. Created page to create remote site setting.
+ * ===================================================================================================
+ -->
+<apex:page controller="UFHT.ConfigurationController" showHeader="false" sidebar="false" >
+    <apex:includeScript value="{!$Resource.UFHT__CreateRemoteSiteSettingScript}"/>
+    <script>
+    window.onload = function() {
+      var remoteSiteName1 = 'VisualForceRemoteSiteSetting';
+      var vfURL = document.location.hostname;
+      
+      var remoteSiteName2 = 'SalesforceRemoteSiteSetting';
+      var sfURL = '{!URLENCODE(baseURL)}';
+      var sessionId = '{!JSENCODE(HTMLENCODE($Api.Session_ID))}';
+      // Call method to create remote site setting.
+      addRemoteSiteSetting(remoteSiteName2, sfURL, vfURL, sessionId ); 
+    };
+    </script>
+    
+    <apex:form >
+    <br>
+        <h2> {!$Label.ufht__RemoteSiteSettingSuccesssMessage}</h2>
+    </br>
+    </apex:form>
+</apex:page>

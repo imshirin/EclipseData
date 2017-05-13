@@ -1,0 +1,6 @@
+public class test {
+    public string demo()
+    {
+      return('Hello world');
+    }
+}

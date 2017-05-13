@@ -1,0 +1,5 @@
+global class Add {
+public static void hello() {
+//return ('Hello World!');
+}
+}

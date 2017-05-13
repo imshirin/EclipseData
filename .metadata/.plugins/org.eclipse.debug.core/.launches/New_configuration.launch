@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.salesforce.ide.core.launch.RunTestsLaunchConfiguration">
+<booleanAttribute key="enableLogging" value="false"/>
+<booleanAttribute key="existingTf" value="false"/>
+<stringAttribute key="forceComProjectName" value="TriggerCodeSnippets"/>
+<stringAttribute key="forceComTestClass" value="TaskUtilTest.cls"/>
+<stringAttribute key="forceComTestMethod" value="(all methods)"/>
+<booleanAttribute key="isAsync" value="false"/>
+<mapAttribute key="logLevels">
+<mapEntry key="Apex Code" value="DEBUG"/>
+<mapEntry key="Apex Profiling" value="INFO"/>
+<mapEntry key="Callout" value="INFO"/>
+<mapEntry key="Database" value="INFO"/>
+<mapEntry key="System" value="DEBUG"/>
+<mapEntry key="Validation" value="INFO"/>
+<mapEntry key="Visualforce" value="INFO"/>
+<mapEntry key="Workflow" value="INFO"/>
+</mapAttribute>
+<stringAttribute key="suiteIds" value=""/>
+<stringAttribute key="suiteJson" value="{&quot;suiteids&quot;:&quot;&quot;}"/>
+<stringAttribute key="testsArray" value="{&quot;tests&quot;:[{&quot;classId&quot;:&quot;01p2800000Esi3kAAB&quot;,&quot;testMethods&quot;:[&quot;testTaskPriority&quot;,&quot;testTaskHighPriority&quot;]}]}"/>
+<booleanAttribute key="useLogging" value="false"/>
+</launchConfiguration>
