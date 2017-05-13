@@ -1,6 +1,6 @@
 <apex:page >
 <!-- Begin Default Content REMOVE THIS -->
-<h1>Welcome</h1>
+<h1>Welcome</h1><br>
 <p>to Eclipse</p>
 
 <!-- End Default Content REMOVE THIS -->

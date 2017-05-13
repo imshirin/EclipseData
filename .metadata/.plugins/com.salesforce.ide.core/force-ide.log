@@ -1364,3 +1364,6 @@ ERROR [2017-05-12 18:14:58,610] (ProjectPackageList.java:generateComponents:483)
  WARN [2017-05-12 19:45:46,145] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
  WARN [2017-05-12 19:45:46,155] (DescribeObjectRegistry.java:clearCache:663) - Clearing cached describes
  WARN [2017-05-12 19:45:46,165] (MetadataFactory.java:clearCache:128) - Clearing the following cached metadata stubs
+ WARN [2017-05-13 12:33:18,866] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
+ WARN [2017-05-13 12:33:18,896] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+ WARN [2017-05-13 12:33:18,906] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
